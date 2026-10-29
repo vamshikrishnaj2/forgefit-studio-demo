@@ -1,6 +1,15 @@
+
 import { FacilitySpotlight, MembershipPlan, Program, TestimonialTemplate, Trainer } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_forgefit_training_1790709793734.jpg';
+import heroImage from '../assets/images/hero_forgefit_training_1790709793734.jpg';
+import leadCoachImage from '../assets/images/trainer_lead_coach_1790709845225.jpg';
+import elenaImage from '../assets/images/trainer_elena_rostova_1793214022712.jpg';
+import davidImage from '../assets/images/trainer_david_chen_1793214024279.jpg';
+import barbellAreaImage from '../assets/images/facility_barbell_area_1790709808984.jpg';
+import conditioningTurfImage from '../assets/images/facility_conditioning_turf_1790709822689.jpg';
+import recoveryLoungeImage from '../assets/images/facility_recovery_lounge_1790709833828.jpg';
+
+export const HERO_IMAGE = heroImage;
 
 export const PROGRAMS: Program[] = [
   {
@@ -98,7 +107,7 @@ export const TRAINERS: Trainer[] = [
     credentials: ['CSCS (NSCA)', 'USA Weightlifting Level 2', 'B.Sc. Exercise Science'],
     bio: 'Specializing in barbell biomechanics, power development, and injury resilience. Marcus has spent 8+ years developing structured lifting frameworks for recreational lifters and collegiate athletes alike.',
     specialties: ['Compound Lift Optimization', 'Barbell Velocity Training', 'Injury Mitigation'],
-    image: '/src/assets/images/trainer_lead_coach_1790709845225.jpg',
+    image: leadCoachImage,
   },
   {
     id: 'elena-rostova',
@@ -107,7 +116,7 @@ export const TRAINERS: Trainer[] = [
     credentials: ['B.Sc. Kinesiology', 'FMS Level 2 Certified', 'Precision Nutrition L1'],
     bio: 'Elena bridges the gap between raw capacity and joint longevity. Her coaching emphasizes multi-planar mobility, athletic kettlebell training, and sustainable work capacity.',
     specialties: ['Athletic Conditioning', 'Hip & Thoracic Mobility', 'Postural Restoration'],
-    image: '/src/assets/images/trainer_elena_rostova_1793214022712.jpg', 
+    image: elenaImage,
   },
   {
     id: 'david-chen',
@@ -116,7 +125,7 @@ export const TRAINERS: Trainer[] = [
     credentials: ['NASM-PES', 'CrossCore Suspension Master', 'Exos Athletic Performance'],
     bio: 'Focused on creating high-trust group training environments where every member pushes their ceiling safely. David designs ForgeFit’s small group progression cycles.',
     specialties: ['Cohort Periodization', 'Metabolic Conditioning', 'Tempo & Energy Systems'],
-    image: '/src/assets/images/trainer_david_chen_1793214024279.jpg', 
+    image: davidImage,
   },
 ];
 
@@ -127,7 +136,7 @@ export const FACILITIES: FacilitySpotlight[] = [
     category: 'Heavy Training Zone',
     description:
       'Eight heavy-gauge matte black steel power cages, calibrated Eleiko bumper plates, competition barbells, and integrated rubber drop platforms.',
-    image: '/src/assets/images/facility_barbell_area_1790709808984.jpg',
+    image: barbellAreaImage,
     specs: ['8 Matte Black Power Racks', 'Calibrated Bumper Plates', 'Dual Deadlift Platforms'],
   },
   {
@@ -136,7 +145,7 @@ export const FACILITIES: FacilitySpotlight[] = [
     category: 'Athletic Conditioning',
     description:
       'Continuous padded indoor turf designed for heavy sled pushes, sprint acceleration work, medicine ball throws, and agility conditioning.',
-    image: '/src/assets/images/facility_conditioning_turf_1790709822689.jpg',
+    image: conditioningTurfImage,
     specs: ['30m Continuous Sprint Track', 'Heavy-Duty Weight Sleds', 'Concept2 Ergometer Fleet'],
   },
   {
@@ -145,7 +154,7 @@ export const FACILITIES: FacilitySpotlight[] = [
     category: 'Restoration',
     description:
       'Quiet dedicated space equipped with vibrating massage tools, targeted foam rollers, warm ambient lighting, and banded mobility stations.',
-    image: '/src/assets/images/facility_recovery_lounge_1790709833828.jpg',
+    image: recoveryLoungeImage,
     specs: ['Hyperice Percussive Tools', 'Targeted Mobility Bands', 'Guided Stretching Zones'],
   },
 ];
