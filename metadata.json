@@ -1,0 +1,6 @@
+{
+  "name": "ForgeFit Studio",
+  "description": "Premium demo website for ForgeFit, a fictional athletic strength and conditioning fitness studio featuring structured programs, facilities, and demo memberships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
